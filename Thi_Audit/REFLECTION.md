@@ -9,8 +9,8 @@
 | Lớp | SE20A06 |
 | Học kỳ | SUMMER 2026 |
 | Tên bài tập / Project | Nền tảng SaaS đa thuê (Multi-tenant SaaS Platform) |
-| Tên sinh viên / Nhóm | [Họ tên của Thi] / GROUP-6 |
-| MSSV / Danh sách MSSV | [Điền MSSV] |
+| Tên sinh viên / Nhóm | Nguyễn Đình Thi / GROUP-6 |
+| MSSV / Danh sách MSSV | DE180805 |
 | Giảng viên hướng dẫn | HanhNT |
 
 ---
@@ -47,4 +47,4 @@ Em cam kết nội dung reflection này phản ánh đúng sự thật quá trì
 
 | Sinh viên xác nhận | Ngày xác nhận |
 |---|---|
-| [Họ tên của Thi] | [DD/MM/YYYY] |
+| Nguyễn Đình Thi | [DD/MM/YYYY] |

@@ -27,7 +27,7 @@ Mỗi thành viên trong nhóm sử dụng các file trong repository này để
 
 | Họ tên | MSSV | Vai trò | Thư mục Audit |
 | :--- | :---: | :--- | :--- |
-| [Họ tên của Thi] | [MSSV] | [Vai trò] | [`Thi_Audit/`](./Thi_Audit/) |
+| Nguyễn Đình Thi | DE180805 | Leader | [`Thi_Audit/`](./Thi_Audit/) |
 | [Họ tên của Trung] | [MSSV] | [Vai trò] | [`Trung_Audit/`](./Trung_Audit/) |
 | [Họ tên của Linh] | [MSSV] | [Vai trò] | [`Linh_Audit/`](./Linh_Audit/) |
 | [Họ tên của Giang] | [MSSV] | [Vai trò] | [`Giang_Audit/`](./Giang_Audit/) |
