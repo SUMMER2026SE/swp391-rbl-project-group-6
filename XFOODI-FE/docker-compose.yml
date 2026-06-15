@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  XFoodi-frontend:
+    build:
+      context: .
+      dockerfile: dockerfile
+    container_name: XFoodi-frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      # Internal URLs: used by Next.js server-side rewrites only
+      # Must point to the backend container name within Docker network
+      - INTERNAL_ADMIN_API_URL=http://xfoodi-backend:5000
+      - INTERNAL_API_URL=http://xfoodi-backend:5000
+      # Public URLs: used by the browser (client-side)
+      - NEXT_PUBLIC_API_URL=https://api.xfoodi.website/api
+      - NEXT_PUBLIC_ADMIN_API_URL=https://api.xfoodi.website/api
+    restart: unless-stopped
+    networks:
+      - XFoodi-network
+
+networks:
+  XFoodi-network:
+    driver: bridge
