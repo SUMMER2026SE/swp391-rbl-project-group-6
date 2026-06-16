@@ -103,7 +103,7 @@ export default function LiveOrdersPage() {
   useEffect(() => {
     if (!isAuthReady) return;
     if (!user) {
-      router.replace("/login-email?redirect=/restaurant/live-orders");
+      router.replace("/login?redirect=/restaurant/live-orders");
       return;
     }
 

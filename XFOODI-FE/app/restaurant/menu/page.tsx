@@ -75,7 +75,7 @@ export default function DishMenuPage() {
   useEffect(() => {
     if (!isAuthReady) return;
     if (!user) {
-      router.replace("/login-email?redirect=/restaurant/menu");
+      router.replace("/login?redirect=/restaurant/menu");
       return;
     }
     const roles: string[] = user.roles || (user.role ? [user.role] : []);

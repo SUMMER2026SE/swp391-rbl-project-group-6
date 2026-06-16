@@ -89,7 +89,7 @@ export default function RestaurantSettingsPage() {
   useEffect(() => {
     if (!isAuthReady || tenantLoading) return;
     if (!user) {
-      router.replace("/login-email?redirect=/restaurant/settings");
+      router.replace("/login?redirect=/restaurant/settings");
       return;
     }
     
